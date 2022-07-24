@@ -6,13 +6,13 @@
 </p>
 <p align="center">
 <a href="https://github.com/837477/IPyFS/blob/main/LICENSE" target="_blank">
-    <img src="https://img.shields.io/pypi/l/ipyfs?color=%2334D058" alt="License">
+    <img src="https://img.shields.io/badge/License-MIT-19bfb6" alt="License">
 </a>
 <a href="https://pypi.org/project/ipyfs" target="_blank">
-    <img src="https://img.shields.io/pypi/v/ipyfs?color=%2334D058&label=pypi%20package" alt="Package version">
+    <img src="https://img.shields.io/badge/Python-3.7 | 3.8 | 3.9 | 3.10-19bfb6" alt="Package version">
 </a>
 <a href="https://pypi.org/project/ipyfs" target="_blank">
-    <img src="https://img.shields.io/pypi/pyversions/ipyfs?color=%2334D058" alt="Supported Python versions">
+    <img src="https://img.shields.io/badge/Release-0.1.0-19bfb6" alt="Supported Python versions">
 </a>
 </p>
 
