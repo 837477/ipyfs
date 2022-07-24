@@ -1,6 +1,5 @@
 import sys
 import requests
-from typing import TextIO
 from collections import defaultdict
 
 
@@ -25,21 +24,24 @@ class IPFS:
 
     @staticmethod
     def _response(response: requests.Response) -> dict:
+        try:
+            result = response.json()
+        except:
+            result = response.text
+            if result == '':
+                result = None
         if response.status_code != 200:
-            try:
-                raise Exception(response.json())
-            except:
-                raise Exception(response.text)
+            raise Exception(result)
         return {
-            "status": response.status_code,
-            "result": response.json()
+            "status_code": response.status_code,
+            "result": result
         }
 
     def _send(
         self,
         params: dict,
         replace: dict = None,
-        file: TextIO = None
+        file=None
     ) -> dict:
         """
         Request to IPFS.
