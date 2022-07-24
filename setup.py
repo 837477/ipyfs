@@ -19,7 +19,6 @@ setup(
     license='MIT',
     packages=['ipyfs', 'ipyfs.RPCs'],
     keywords=['ipyfs', 'ipfs', 'ipfs python', 'ipfs-python', 'iptf_python', 'python-ipfs', 'python_ipfs'],
-    python_requires = '>=3.7',
     install_requires=['requests'],
     platforms='any',
     classifiers=[
