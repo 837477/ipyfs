@@ -1,7 +1,6 @@
 """
 IPyFS (Python IPFS Client)
 """
-import setuptools
 from setuptools import setup
 from ipyfs import __AUTHOR__, __VERSION__
 
