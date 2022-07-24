@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://fastapi.tiangolo.com"><img src="ipyfs.png"></a>
+  <a href="https://github.com/837477/IPyFS"><img src="https://user-images.githubusercontent.com/37999795/180646280-7774e259-bc91-4ed3-8b68-84d705ff61c5.png"></a>
 </p>
 <p align="center">
     <em>IPFS allows you to easily control IPFS System in Python. (IPFS Python CLI)</em>
