@@ -6,7 +6,7 @@
 </p>
 <p align="center">
 <a href="https://github.com/837477/IPyFS/blob/main/LICENSE" target="_blank">
-    <img src="https://img.shields.io/pypi/l/ipyfs?color=%2334D058" alt="Test">
+    <img src="https://img.shields.io/pypi/l/ipyfs?color=%2334D058" alt="License">
 </a>
 <a href="https://pypi.org/project/ipyfs" target="_blank">
     <img src="https://img.shields.io/pypi/v/ipyfs?color=%2334D058&label=pypi%20package" alt="Package version">
