@@ -3,17 +3,17 @@
   <a href="https://github.com/837477/IPyFS"><img src="https://user-images.githubusercontent.com/37999795/180646280-7774e259-bc91-4ed3-8b68-84d705ff61c5.png"></a>
 </p>
 <p align="center">
-    <em>In the future, you will be able to easily control IPFS System with IPyFS (IPFS Python CLI).</em>
+    <em>From now on, you will be able to easily control IPFS System with IPyFS (IPFS Python CLI).</em>
 </p>
 <p align="center">
 <a href="https://github.com/837477/IPyFS/blob/main/LICENSE" target="_blank">
-    <img src="https://img.shields.io/badge/License-MIT-19bfb6" alt="License">
+    <img src="https://img.shields.io/pypi/l/ipyfs?color=19bfb6" alt="License">
 </a>
 <a href="https://pypi.org/project/ipyfs" target="_blank">
-    <img src="https://img.shields.io/badge/Python-3.7 | 3.8 | 3.9 | 3.10-19bfb6" alt="Package version">
+    <img src="https://img.shields.io/pypi/v/ipyfs?color=19bfb6" alt="Package version">
 </a>
 <a href="https://pypi.org/project/ipyfs" target="_blank">
-    <img src="https://img.shields.io/badge/Release-0.1.0-19bfb6" alt="Supported Python versions">
+    <img src="https://img.shields.io/pypi/pyversions/ipyfs?color=19bfb6" alt="Supported Python versions">
 </a>
 </p>
 <br><br><br>
@@ -40,9 +40,9 @@ Python 3.7+
 IPyFS stands on the shoulders of giants:
 
 * <a href="https://docs.ipfs.io/install/" class="external-link" target="_blank">IPFS Daemon</a> for the IPFS server.
-* <a href="https://github.com/psf/requests" class="external-link" target="_blank">Requests</a> For communication with IPFS Daemon.
-
-<small>* It's so obvious! Since IPyFS is a Python-based IPFS CLI, IPFS Server must be running.</small>
+* <a href="https://github.com/psf/requests" class="external-link" target="_blank">Requests</a> For communication with IPFS Daemon. 
+ 
+It's so obvious! Since IPyFS is a Python-based IPFS CLI, **IPFS Server must be running.**
 
 ## Installation
 
@@ -122,13 +122,9 @@ files.write(
 
 </div>
 
-<details markdown="1">
-<summary>Detail <code>Parameters</code>...</summary>
-
-<br>
-
 IPyFS is basically the same as the parameters of IPFS RPC APIs.
 
+Let's practice together !<br>
 If you want to list the file in your `IPFS Daemon`:
 
 * Here is the IPFS Files RPC API document: <a href="https://docs.ipfs.io/reference/kubo/rpc/#api-v0-files-ls" target="_blank">https://docs.ipfs.io/reference/kubo/rpc/#api-v0-files-ls </a>
@@ -159,8 +155,6 @@ print(result)
 ```
 
 If you want to know what each parameter is, please refer to the <a href="https://docs.ipfs.io/reference/kubo/rpc/" target="_blank">IPFS RPC API documentation.</a>
-
-</details>
 
 
 ## Contributing
